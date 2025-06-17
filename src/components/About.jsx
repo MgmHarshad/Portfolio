@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-
+import Resume from '../assets/Harshad_Magadum_Resume_Improved.pdf'
 const About = () => {
   const skills = [
     { name: 'React', level: 75 },
@@ -45,13 +45,7 @@ const About = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
-                className="text-blue-600 hover:text-blue-700 font-medium"
-              >
-                Download CV
-              </a>
-              <a
-                href="#"
+                href={Resume}
                 className="text-blue-600 hover:text-blue-700 font-medium"
               >
                 View Resume
