@@ -7,7 +7,7 @@ const Projects = () => {
       description: 'A full-stack Social Good Initiative platform with React, Node.js, and MongoDB.',
       image: '🍔',
       tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Still In Progress'],
-      link: '#',
+      link: 'https://fooddonationandredistributionplatfo.vercel.app/',
     },
     {
       title: 'Recipe Book Application',
