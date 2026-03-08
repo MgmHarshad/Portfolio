@@ -1,12 +1,14 @@
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import Resume from '../assets/Harshad_Magadum_Resume_Improved.pdf'
 const About = () => {
   const skills = [
+    {name: 'Python', level: 75},
     { name: 'React', level: 75 },
-    { name: 'JavaScript', level: 75 },
+    { name: 'JavaScript', level: 50 },
     { name: 'Node.js', level: 50 },
     { name: 'Git & GitHub', level: 50 },
-    { name: 'MongoDB', level: 50 },
+    { name: 'MongoDB', level: 75 },
+    {name: 'SQL', level: 50}
   ]
 
   return (
