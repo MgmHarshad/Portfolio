@@ -1,4 +1,4 @@
-// import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Resume from '../assets/Harshad_Magadum_Resume_Improved.pdf'
 const About = () => {
   const skills = [
